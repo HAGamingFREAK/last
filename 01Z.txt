@@ -1,0 +1,2 @@
+gg.alert('test')
+print('test')
